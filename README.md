@@ -26,4 +26,4 @@ To get started with Decentralized University, visit our website at [https://univ
 
 Have questions or feedback? We'd love to hear from you! Reach out to us at [shnartho@gmail.com](shnartho@gmail.com) and we'll get back to you as soon as possible. 📩
 
-![metasurfai](/public/images/companies/metasurfai.jpg) 🖼️
+![metasurfai](/public/images/companies/metasurfai.jpg) 
