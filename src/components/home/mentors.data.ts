@@ -3,7 +3,7 @@ import type { Mentor } from '@/interfaces/mentor'
 export const data: Array<Mentor> = [
   {
     "id": 1,
-    "photo": "/images/mentors/nayem4.jpg",
+    "photo": "/images/mentors/nayem.jpg",
     "name": "MSH Nayem",
     "category": "Senior Software Engineer",
     "description": "MSH Nayem is a seasoned software engineer with extensive experience in designing and developing scalable software solutions. At Transcom, he leads engineering teams to build innovative products that meet high industry standards.",
@@ -14,7 +14,7 @@ export const data: Array<Mentor> = [
   },
   {
     "id": 2,
-    "photo": "/images/mentors/jemal1.jpg",
+    "photo": "/images/mentors/jemal.jpg",
     "name": "Jemal Samba",
     "category": "Senior Full-Stack Developer",
     "description": "Jemal Samba specializes in both front-end and back-end development, creating seamless and efficient web applications. At Metasurfai, he integrates modern technologies to enhance user experiences and optimize system performance.",
@@ -25,7 +25,7 @@ export const data: Array<Mentor> = [
   },
   {
     "id": 3,
-    "photo": "/images/mentors/aktar.jpg",
+    "photo": "/images/mentors/aktar1.jpg",
     "name": "H Aktar",
     "category": "Senior DevOps Engineer",
     "description": "H Aktar is an expert in DevOps practices, ensuring smooth and efficient software delivery pipelines. At Unit4, he automates infrastructure and deployment processes to improve reliability and scalability.",
