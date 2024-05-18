@@ -28,7 +28,7 @@ export const data: Array<Mentor> = [
     "photo": "/images/mentors/aktar1.jpg",
     "name": "H Aktar",
     "category": "Senior DevOps Engineer",
-    "description": "H Aktar is an expert in DevOps practices, ensuring smooth and efficient software delivery pipelines. At Unit4, he automates infrastructure and deployment processes to improve reliability and scalability.",
+    "description": "H Aktar is an expert in DevOps practices, ensuring smooth and efficient software delivery pipelines. At Unit4, he automates infrastructure and deployment processes to improve reliability and scalability with over 13 years experience.",
     "company": {
       "name": "Unit4",
       "logo": "/images/companies/unit4.png"
