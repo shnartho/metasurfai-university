@@ -14,7 +14,7 @@ export const data: Array<Mentor> = [
   },
   {
     "id": 2,
-    "photo": "/images/mentors/jemal.jpg",
+    "photo": "/images/mentors/jemal4.png",
     "name": "Jemal Samba",
     "category": "Senior Full-Stack Developer",
     "description": "Jemal Samba specializes in both front-end and back-end development, creating seamless and efficient web applications. At Metasurfai, he integrates modern technologies to enhance user experiences and optimize system performance.",
