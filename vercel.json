@@ -2,7 +2,7 @@
     "routes": [
       {
         "src": "/(.*)",
-        "dest": "/app",
+        "dest": "/src",
         "headers": {
           "x-force-static": "1"
         }
