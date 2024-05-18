@@ -15,7 +15,7 @@ export const data: Array<Mentor> = [
   },
   {
     id: 2,
-    photo: '/images/mentors/Chris.jpg',
+    photo: '/images/mentors/chris.jpg',
     name: 'Jemal Samba',
     category: 'Senior Full-Stack Developer',
     description:
