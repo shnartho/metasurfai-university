@@ -2,51 +2,47 @@ import type { Mentor } from '@/interfaces/mentor'
 
 export const data: Array<Mentor> = [
   {
-    id: 1,
-    photo: '/images/mentors/nayem4.jpg',
-    name: 'MSH Nayem',
-    category: 'Senior Software Engineer',
-    description:
-      'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    company: {
-      name: 'Grab',
-      logo: '/images/companies/transcom.png',
-    },
+    "id": 1,
+    "photo": "/images/mentors/nayem4.jpg",
+    "name": "MSH Nayem",
+    "category": "Senior Software Engineer",
+    "description": "MSH Nayem is a seasoned software engineer with extensive experience in designing and developing scalable software solutions. At Transcom, he leads engineering teams to build innovative products that meet high industry standards.",
+    "company": {
+      "name": "Transcom",
+      "logo": "/images/companies/transcom.png"
+    }
   },
   {
-    id: 2,
-    photo: '/images/mentors/jemal.jpg',
-    name: 'Jemal Samba',
-    category: 'Senior Full-Stack Developer',
-    description:
-      'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    company: {
-      name: 'Airbnb',
-      logo: '/images/companies/metasurfai.jpg',
-    },
+    "id": 2,
+    "photo": "/images/mentors/jemal1.jpg",
+    "name": "Jemal Samba",
+    "category": "Senior Full-Stack Developer",
+    "description": "Jemal Samba specializes in both front-end and back-end development, creating seamless and efficient web applications. At Metasurfai, he integrates modern technologies to enhance user experiences and optimize system performance.",
+    "company": {
+      "name": "Metasurfai",
+      "logo": "/images/companies/metasurfai.jpg"
+    }
   },
   {
-    id: 3,
-    photo: '/images/mentors/manindra.jpg',
-    name: 'Manindra Kami',
-    category: 'Machine Learning Engineer',
-    description:
-      'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    company: {
-      name: 'Google',
-      logo: '/images/companies/airbnb.png',
-    },
+    "id": 3,
+    "photo": "/images/mentors/aktar.jpg",
+    "name": "H Aktar",
+    "category": "Senior DevOps Engineer",
+    "description": "H Aktar is an expert in DevOps practices, ensuring smooth and efficient software delivery pipelines. At Unit4, he automates infrastructure and deployment processes to improve reliability and scalability.",
+    "company": {
+      "name": "Unit4",
+      "logo": "/images/companies/unit4.png"
+    }
   },
   {
-    id: 4,
-    photo: '/images/mentors/philip-martin-5aGUyCW_PJw-unsplash.jpg',
-    name: 'Rizki Known',
-    category: 'Fullstack Development',
-    description:
-      'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    company: {
-      name: 'Microsoft',
-      logo: '/images/companies/microsoft.png',
-    },
+    "id": 4,
+    "photo": "/images/mentors/manindra.jpg",
+    "name": "Manindra Kami",
+    "category": "Machine Learning Engineer",
+    "description": "Manindra Kami leverages machine learning algorithms to drive insights and innovation. At Airbnb, he develops models that enhance user personalization and improve operational efficiency.",
+    "company": {
+      "name": "airbnb",
+      "logo": "/images/companies/airbnb.png"
+    }
   },
 ]
