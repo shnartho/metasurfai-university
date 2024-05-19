@@ -2,7 +2,7 @@ import React, { FC } from 'react'
 import Box from '@mui/material/Box'
 import { StyledButton } from '@/components/styled-button'
 
-const handleBookMe = () => {
+const handleBookMe = (): void => {
   window.open('https://my.workee.net/shnartho', '_blank');
 };
 

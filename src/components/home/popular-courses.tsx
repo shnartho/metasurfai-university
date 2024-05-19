@@ -77,7 +77,7 @@ const HomePopularCourse: FC = () => {
     ),
   }
 
-  const handleBookMe = () => {
+  const handleBookMe = (): void => {
     window.open('https://my.workee.net/shnartho', '_blank');
   };
 

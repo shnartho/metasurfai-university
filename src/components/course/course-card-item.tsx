@@ -9,11 +9,11 @@ import { Course } from '@/interfaces/course'
 
 interface Props {
   item: Course,
-  onArrowClick: (websiteUrl: string) => void // Define the onArrowClick prop
+  onArrowClick: (websiteUrl: string) => void;
 }
 
 const CourseCardItem: FC<Props> = ({ item, onArrowClick }) => {
-  const handleArrowClick = () => {
+  const handleArrowClick = (): void => {
     onArrowClick(item.website); // Call onArrowClick with the website URL when arrow button is clicked
   };
 

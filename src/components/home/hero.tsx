@@ -47,7 +47,7 @@ const ExpItem: FC<ExpItemProps> = ({ item }) => {
   )
 }
 
-const handleBookMe = () => {
+const handleBookMe = (): void => {
   window.open('https://my.workee.net/shnartho', '_blank');
 };
 
