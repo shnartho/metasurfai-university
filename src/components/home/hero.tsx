@@ -47,6 +47,10 @@ const ExpItem: FC<ExpItemProps> = ({ item }) => {
   )
 }
 
+const handleBookMe = () => {
+  window.open('https://my.workee.net/shnartho', '_blank');
+};
+
 const HomeHero: FC = () => {
   return (
     <Box id="hero" sx={{ backgroundColor: 'background.paper', position: 'relative', pt: 4, pb: { xs: 8, md: 10 } }}>
@@ -144,12 +148,12 @@ const HomeHero: FC = () => {
               </Box>
               <Box sx={{ '& button': { mr: 2 } }}>
                 <ScrollLink to="popular-course" spy={true} smooth={true} offset={0} duration={350}>
-                  <StyledButton color="primary" size="large" variant="contained">
+                  <StyledButton color="primary" size="large" variant="contained" onClick={handleBookMe}>
                     Get Started
                   </StyledButton>
                 </ScrollLink>
                 <ScrollLink to="video-section" spy={true} smooth={true} offset={0} duration={350}>
-                  <StyledButton color="primary" size="large" variant="outlined" startIcon={<PlayArrowIcon />}>
+                  <StyledButton color="primary" size="large" variant="outlined" onClick={handleBookMe} startIcon={<PlayArrowIcon />}>
                     Watch Video
                   </StyledButton>
                 </ScrollLink>

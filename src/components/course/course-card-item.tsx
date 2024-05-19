@@ -3,21 +3,27 @@ import Image from 'next/image'
 import Box from '@mui/material/Box'
 import Rating from '@mui/material/Rating'
 import Typography from '@mui/material/Typography'
-import IconButton, { iconButtonClasses } from '@mui/material/IconButton'
+import IconButton from '@mui/material/IconButton'
 import ArrowForward from '@mui/icons-material/ArrowForward'
 import { Course } from '@/interfaces/course'
 
 interface Props {
-  item: Course
+  item: Course,
+  onArrowClick: (websiteUrl: string) => void // Define the onArrowClick prop
 }
 
-const CourseCardItem: FC<Props> = ({ item }) => {
+const CourseCardItem: FC<Props> = ({ item, onArrowClick }) => {
+  const handleArrowClick = () => {
+    onArrowClick(item.website); // Call onArrowClick with the website URL when arrow button is clicked
+  };
+
   return (
     <Box
       sx={{
         px: 1,
         py: 4,
       }}
+      onClick={handleArrowClick}
     >
       <Box
         sx={{
@@ -27,7 +33,7 @@ const CourseCardItem: FC<Props> = ({ item }) => {
           transition: (theme) => theme.transitions.create(['box-shadow']),
           '&:hover': {
             boxShadow: 2,
-            [`& .${iconButtonClasses.root}`]: {
+            '& .MuiIconButton-root': { // Adjusted selector
               backgroundColor: 'primary.main',
               color: 'primary.contrastText',
               boxShadow: 2,
@@ -63,9 +69,11 @@ const CourseCardItem: FC<Props> = ({ item }) => {
             </Typography>
             <Typography variant="h6">/ course</Typography>
           </Box>
+          {/* Pass handleArrowClick function as onClick handler */}
           <IconButton
             color="primary"
             sx={{ '&:hover': { backgroundColor: 'primary.main', color: 'primary.contrastText' } }}
+            onClick={handleArrowClick} // Attach onClick event
           >
             <ArrowForward />
           </IconButton>

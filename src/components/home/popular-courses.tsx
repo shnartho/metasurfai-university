@@ -77,6 +77,10 @@ const HomePopularCourse: FC = () => {
     ),
   }
 
+  const handleBookMe = () => {
+    window.open('https://my.workee.net/shnartho', '_blank');
+  };
+
   return (
     <Box
       id="popular-course"
@@ -110,7 +114,7 @@ const HomePopularCourse: FC = () => {
           <Grid item xs={12} md={9}>
             <Slider {...sliderConfig}>
               {data.map((item) => (
-                <CourseCardItem key={String(item.id)} item={item} />
+                <CourseCardItem key={String(item.id)} item={item} onArrowClick={handleBookMe}/>
               ))}
             </Slider>
           </Grid>
